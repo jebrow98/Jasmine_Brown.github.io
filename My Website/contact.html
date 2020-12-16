@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Brown" <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+
+        <div class="contact-title">
+            <h1> Say Hello! </h1>
+            <h2> Tell me what I can do for you.</h2>
+        </div>
+
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="contactform.php">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+        </div>
+
+
+</body>
+
+</html>
